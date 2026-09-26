@@ -1,0 +1,21 @@
+Building_ID,Apartment_ID,Initial_Household_Members,Household_Scenario,Building_Wide_Case,Baseline_Daily_Consumption_Liters,Learned_Idle_Flow_Liters,Fingerprint_Status
+B101,A101,4,Normal Household,Normal Building,692.2,0.7,Active
+B101,A102,5,High Legitimate Usage,Normal Building,817.0,0.7,Active
+B101,A103,3,Normal Household,Normal Building,589.4,0.8,Active
+B101,A104,6,Smart Form Re-analysis,Normal Building,986.1,0.7,Active
+B102,A201,4,Normal Household,External Supply Pipe Leak,706.5,0.7,Active
+B102,A202,5,Hidden Internal Leak,External Supply Pipe Leak,818.3,0.8,Active
+B102,A203,3,Normal Household,External Supply Pipe Leak,654.3,0.8,Active
+B102,A204,2,Normal Household,External Supply Pipe Leak,473.0,0.9,Active
+B103,A301,5,Normal Household,Tank Float Valve / Overflow Loss,823.5,0.7,Active
+B103,A302,4,Normal Household,Tank Float Valve / Overflow Loss,744.6,0.6,Active
+B103,A303,6,High Legitimate Usage,Tank Float Valve / Overflow Loss,949.6,0.7,Active
+B103,A304,3,Hidden Internal Leak,Tank Float Valve / Overflow Loss,566.5,0.8,Active
+B104,A401,4,Normal Household,Pump / Motor Issue,772.4,0.9,Active
+B104,A402,5,Household Profile Change,Pump / Motor Issue,817.4,0.9,Active
+B104,A403,2,Normal Household,Pump / Motor Issue,486.9,0.9,Active
+B104,A404,6,Leak Follow-up,Pump / Motor Issue,956.9,0.8,Active
+B105,A501,3,Normal Household,Building-Wide Water Loss,629.0,0.9,Active
+B105,A502,5,Normal Household,Building-Wide Water Loss,823.9,0.8,Active
+B105,A503,4,High Legitimate Usage,Building-Wide Water Loss,721.5,0.8,Active
+B105,A504,5,Normal Household,Building-Wide Water Loss,877.6,0.7,Active
