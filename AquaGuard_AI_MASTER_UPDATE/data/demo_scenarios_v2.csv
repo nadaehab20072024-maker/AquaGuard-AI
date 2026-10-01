@@ -1,0 +1,13 @@
+Building_ID,Scope,Level,Scenario,Why_It_Is_Detected,Required_User_Action,Portable_Moisture_Detector
+B101,A101,Household,Normal Household,Normal pattern,Continue monitoring,No
+B101,A102,Household,High Legitimate Usage,Consumption above learned range,Send Smart Form; classify/re-analyze after response,No
+B101,A104,Household,Smart Form Re-analysis,Unusual increase,Ask user; re-analyze based on response,Conditional
+B102,BUILDING,Building-wide,External Supply Pipe Leak,Main meter exceeds apartment explanation,Inspect external supply pipes before apartment meters,No
+B102,A202,Household,Hidden Internal Leak,Repeated idle/night flow,Portable non-invasive moisture detector + technical inspection,Yes
+B103,BUILDING,Building-wide,Tank Float Valve / Overflow Loss,Tank full but water is lost,Check/repair float valve and overflow path,No
+B103,A303,Household,High Legitimate Usage,Temporary household spike,Smart Form first; do not auto-label leak,No
+B103,A304,Household,Hidden Internal Leak,Repeated idle/night flow,Portable detector + technical inspection,Yes
+B104,BUILDING,Building-wide,Pump / Motor Issue,Abnormal tank/pump/motor pattern,"Inspect tank, pump and motor",No
+B104,A402,Household,Household Profile Change,Household size changed,Update profile; fingerprint adapts gradually,No
+B104,A404,Household,Leak Follow-up,Persistent internal indicators,Portable detector + technical inspection/service,Yes
+B105,BUILDING,Building-wide,Building-Wide Water Loss,Persistent unaccounted water,Investigate building water balance/common infrastructure,No
