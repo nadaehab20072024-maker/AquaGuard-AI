@@ -1,0 +1,13 @@
+Building_ID,Apartment_ID_or_Scope,Scenario,Expected_Result,Expected_UI_Flow,Recommended_Action
+B101,A101,Normal Household,Normal,No form,Continue monitoring
+B101,A102,High Legitimate Usage,Smart Form,"Ask if expected, then re-analyze",
+B101,A104,Smart Form Re-analysis,Smart Form → response → re-analysis,Change classification based on response,
+B102,A202,Hidden Internal Leak,Possible internal leak,Portable non-invasive moisture detector + technical inspection,
+B102,BUILDING,External Supply Pipe Leak,Building-level external loss,Inspect external supply line before apartment meters,
+B103,BUILDING,Tank Float Valve / Overflow Loss,Building-level tank loss,Inspect/repair float valve and overflow,
+B103,A303,High Legitimate Usage,Smart Form,Do not automatically call it a leak,
+B103,A304,Hidden Internal Leak,Possible internal leak,Portable detector + technical inspection,
+B104,BUILDING,Pump / Motor Issue,Building-level equipment issue,"Inspect tank, pump and motor",
+B104,A402,Household Profile Change,Profile adaptation,Update profile; fingerprint relearns,
+B104,A404,Leak Follow-up,Follow-up,Portable detector + technical inspection/service,
+B105,BUILDING,Building-Wide Water Loss,Building-level loss,Investigate main meter vs apartment balance,
