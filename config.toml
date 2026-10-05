@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#0a0e17"
+secondaryBackgroundColor = "#121a2b"
+textColor = "#e6edf7"
+font = "sans serif"
+
+[server]
+headless = true
+
+[client]
+# Hides Streamlit Community Cloud's injected "Fork" / GitHub ribbon in the
+# top-right corner — it isn't part of the app itself and was taking up
+# header space on narrow phone screens.
+toolbarMode = "minimal"
